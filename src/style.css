@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #0B2434; 
+    font-family: "Karla", sans-serif;
+
+
+}
+
+
+main{
+    background-color: #F5F5F5; 
+    border-radius: 5px;
+    margin:5px;
+    width : 80vh;
+    height: 70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.dice_container{
+    
+    background-color:#F5F5F5;
+
+    width: 70%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px;
+    gap: 40px;
+    align-content: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding-bottom:7px;
+    margin-top:0;
+ 
+
+
+}
+.dice{
+    width: 60px;
+    height:60px;
+    color:#2B283A;
+    border-radius: 3.81px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family:Karla;
+    font-weight: bold;
+    font-size:30.59px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+
+}
+.title {
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+
+.instructions {
+    width: 65%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+    color: black;
+    margin:0;
+    font-size:20px;
+}
+
+.rollButton{
+    background-color:#5035FF;
+    color: #FFFFFF;
+    width:8em;
+    height:2em;
+    font-family:Karla;
+    font-weight: bold;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
